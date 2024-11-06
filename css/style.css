@@ -311,6 +311,7 @@
 
 .fruite .fruite-item .fruite-img img {
   transition: 0.5s;
+  height: 250px;
 }
 
 .fruite .fruite-item .fruite-img img:hover {
@@ -336,6 +337,7 @@
 
 .vesitable .vesitable-item .vesitable-img img {
   transition: 0.5s;
+  height: 400px;
 }
 
 .vesitable .vesitable-item .vesitable-img img:hover {
@@ -487,3 +489,7 @@
   line-height: 35px;
 }
 /*** Footer End ***/
+
+.fruite-item:hover {
+  cursor: pointer;
+}
