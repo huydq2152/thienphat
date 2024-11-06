@@ -143,7 +143,10 @@
     button.parent().parent().find("input").val(newVal);
   });
 
-  $(".fruite-item").click(function () {
+  $(".fruite-item-hop-carton").click(function () {
     window.location.href = "hop-carton.html";
+  });
+  $(".fruite-item-hop-banh").click(function () {
+    window.location.href = "hop-banh.html";
   });
 })(jQuery);
